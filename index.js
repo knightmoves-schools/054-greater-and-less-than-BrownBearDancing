@@ -1,5 +1,5 @@
 function oldEnough(age) {
-  if age >= 17 {
+  if age > 17 {
     return "old enough";
   }
 }
@@ -12,3 +12,4 @@ should create a function named legalSpeed that takes a speed and returns the str
 should return the string legal speed if a speed of 50 is passed to legalSpeed
 should create a function named isGoldenYears that takes an age and returns the string golden years if the age is over 65
 should return the string golden years if an age of 65 is passed to isGoldenYears
+
